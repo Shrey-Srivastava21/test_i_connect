@@ -79,19 +79,6 @@ export const HomeSideBar = () => {
               primary={<Typography variant="button">Events</Typography>}
             />
           </ListItem>
-          // <ListItem
-          //   button
-          //   onClick={() => {
-          //     history.push("/notices")
-          //   }}
-          // >
-          //   <ListItemIcon>
-          //     <BookmarksRoundedIcon />
-          //   </ListItemIcon>
-          //   <ListItemText
-          //     primary={<Typography variant="button">Notices</Typography>}
-          //   />
-          </ListItem>
           <ListItem
             button
             onClick={() => {
@@ -107,7 +94,7 @@ export const HomeSideBar = () => {
           </ListItem>
         </List>
       </Paper>
-      <NoticeCard />
+      {/* <NoticeCard /> */}
     </div>
   )
 }
